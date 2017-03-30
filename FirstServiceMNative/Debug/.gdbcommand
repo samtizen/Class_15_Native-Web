@@ -1,0 +1,5 @@
+set sysroot /home/sergo/tizen-studio/tools/smart-build-interface/../../platforms/tizen-2.4/mobile/rootstraps/mobile-2.4-device.core
+set debug-file-directory /home/sergo/tizen-studio/tools/smart-build-interface/../../platforms/tizen-2.4/mobile/rootstraps/mobile-2.4-device.core/usr/lib/debug
+set solib-search-path /home/sergo/tizen_studio_workspace/FirstServiceMNative/Debug
+dir /home/sergo/tizen-studio/tools/smart-build-interface/../../platforms/tizen-2.4/mobile/rootstraps/mobile-2.4-device.core/usr/src/debug
+file "/home/sergo/tizen_studio_workspace/FirstServiceMNative/Debug/firstservicemnative"

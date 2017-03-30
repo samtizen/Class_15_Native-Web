@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.4" package="org.example.firstservicemnative" version="1.0.0" install-location="internal-only">
+    <profile name="mobile" />
+    <service-application appid="org.example.firstservicemnative" exec="firstservicemnative" type="capp" multiple="false" taskmanage="false" nodisplay="true" auto-restart="true" on-boot="true">
+        <icon>firstservicemnative.png</icon>
+        <label>firstservicemnative</label>
+	</service-application>
+</manifest>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Tizen Mobile Web Basic Template" />
+
+    <title>Web App</title>
+    <link rel="stylesheet" href="lib/tau/mobile/theme/default/tau.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/message_port_style.css" />
+</head>
+
+<body>
+    <div class="ui-page ui-page-active" id="bluetooth-viewer-main">
+        <div class="ui-header">
+            <h1>Web App / Service Client</h1>
+        </div>
+        <div class="ui-content">
+        	<label style="display:inline-block; margin:10px 0px 10px 0px;">Enter number</label>
+			<input type="text" id="txt-number">
+			<div style="text-align:center;margin:40px 0px 40px 0px">
+				<button id="btn-create-port" style="display:inline; width:180px; height:60px;">Create Port</button>
+				<button id="btn-start-timer" style="display:inline; width:180px; height:60px;">Start Timer</button>
+			</div>
+			<label>Counter State</label>
+			<p id="lbl-msg" style="text-align:center;"></p>
+			
+        </div>
+    </div>
+
+    <script type="text/javascript" src="lib/tau/mobile/js/tau.js"></script>
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="js/message_port_view_prot.js"></script>
+    <script type="text/javascript" src="js/message_port_tizen_prot.js"></script>
+    <script type="text/javascript" src="js/message_port_main.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
